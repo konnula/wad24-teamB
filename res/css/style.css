@@ -1,3 +1,7 @@
 a:hover {
     background-color: aqua;
 }
+
+.login_button:hover {
+    background-color: inherit;
+}
