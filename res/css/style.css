@@ -10,3 +10,15 @@ a:hover {
 .login_button>img {
     width: 50px;
 }
+
+.common * { /* Used for common positioning of page elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.common * {
+    margin: 5px;
+}
+
