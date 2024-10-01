@@ -27,6 +27,21 @@ a:hover {
     text-align: center; /* Center text inside the container */
 }
 
+nav { /* Navigation bar layout */ 
+    position: sticky;
+    top: 10px;
+    background-color: lightsteelblue;
+    border: 2px solid #4CAF50;
+}
+
+nav a {
+    margin: 5%;
+}
+
+nav .login_button {
+    right: 0;
+}
+
 
 /* Add Post styling */
 .post_form {
@@ -65,4 +80,25 @@ a:hover {
 
 .post_form button:hover {
     background-color: lightblue;
+}
+
+/* Rules for index.html */
+main {
+    display: block;
+    align-items: center;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+article > img {
+    border-radius: 8px;
+    max-width: 50%;
+    height: auto;
+}
+
+article > p {
+    max-width: 50%;
+    font-family: Helvetica;
 }
