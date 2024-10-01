@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/res/css/style.css">
+    <title>Add Post</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html" class="login_button">
+            <img src="res/images/login.png" alt="Login button">
+        </a>
+        <hr />
+    </nav>
+    <div class="common">
+        <form class="post_form" action="index.html" method="get">
+            <label for="post_body">Post Body</label>
+            <textarea id="post_body" name="post_body" rows="5" cols="40"></textarea>
+
+            <label for="post_image">Select File</label>
+            <input type="file" id="post_image" name="post_image">
+
+            <button type="submit">Create Post</button>
+        </form>
+    </div>
+</body>
+</html>

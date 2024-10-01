@@ -22,3 +22,42 @@ a:hover {
     margin: 5px;
 }
 
+
+/* Add Post styling */
+.post_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form element spacing */
+.post_form label {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.post_form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.post_form input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.post_form button {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.post_form button:hover {
+    background-color: lightblue;
+}
