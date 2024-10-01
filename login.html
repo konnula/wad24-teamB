@@ -7,28 +7,34 @@
     <title>Login</title>
 </head>
 <body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/login.html" class="login_button">
+            <img src="res/images/login.png" alt="Login button">
+        </a>
+        <hr/>
+    </nav>
+    
+    <div class="common"> <!-- Flex container to center everything -->
+        <div class="login_box"> <!-- Login box with padding and border -->
+            <h3>Welcome to PostIt</h3>
 
-    <div class="common"> <!-- currently for common css usage -->
-        <h3>Welcome to PostIt</h3>
+            <p>
+                <a href="">Create an account</a> <br>
+                or <br>
+                Please log in
+            </p>
 
-        <p>
-            <a href="">Create an account</a> <!-- Future update #TODO add link -->
-            or
-        </p>
-        <p>
-            Please log in
-        </p>
+            <form action="/index.html"> <!-- Redirect to main page -->
+                <input type="email" placeholder="Email" name="email" id="loginEmail" required><br>
+                <input type="password" placeholder="Password" name="password" id="loginPassword" required><br>
+                <input type="submit" value="Login">
+            </form>   
 
-        <form action="/index.html"> <!-- Redirect to main page -->
-            <input type="email" placeholder="Email" name="email" id="loginEmail" required><br>
-            <input type="password" placeholder="Password" name="password" id="loginPassword" required><br>
-            <input type="submit" value="Login">
-        </form>   
-
-        <p>
-            <a href="">Forgot password</a> <!-- Future update #TODO add link -->
-        </p>
-
+            <p>
+                <a href="">Forgot password</a>
+            </p>
+        </div>
     </div>
 
 </body>
