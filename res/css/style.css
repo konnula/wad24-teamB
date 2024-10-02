@@ -34,47 +34,71 @@ article {
     text-align: center; /* Center text inside the container */
 }
 
-nav { /* Navigation bar layout */ 
+/* Navigation bar layout */
+nav { 
     position: sticky;
     top: 10px;
     background-color: lightsteelblue;
-    border: 2px solid #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 70px;
 }
 
 nav a {
-    margin: 5%;
+    margin: 15%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: aqua;
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 20px aqua);
 }
 
 nav .login_button {
     right: 0;
 }
 
+nav .left-links {
+    display: flex;
+    align-items: center;
+}
 
-/* Add Post styling */
+nav .right-links {
+    display: flex;
+    float: right;
+}
+
+
+/* Styling for the Add Post form to match the login box */
 .post_form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 20px;
-    width: 400px;
-    background-color: white;
+    background-color: lightgray;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
 }
 
-/* Form element spacing */
 .post_form label {
     align-self: flex-start;
     margin-bottom: 10px;
 }
 
-.post_form textarea {
-    width: 100%;
-    margin-bottom: 15px;
-}
-
+.post_form textarea, 
 .post_form input[type="file"] {
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -83,11 +107,13 @@ nav .login_button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .post_form button:hover {
     background-color: lightblue;
 }
+
 
 /* Rules for index.html */
 main {
