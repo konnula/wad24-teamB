@@ -37,11 +37,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 10px;
+    height: 70px;
 }
 
-/* Remove underline from links and adjust hover effect */
 nav a {
-    margin: 5%;
+    margin: 15%;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -55,6 +56,16 @@ nav a:hover {
 
 nav .login_button {
     right: 0;
+}
+
+nav .left-links {
+    display: flex;
+    align-items: center;
+}
+
+nav .right-links {
+    display: flex;
+    float: right;
 }
 
 
