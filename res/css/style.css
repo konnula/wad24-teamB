@@ -162,13 +162,17 @@ article {
 
 article > img {
     border-radius: 8px;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
 article > p {
-    max-width: 50%;
     font-family: Helvetica;
+}
+
+article > h2 {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -184,15 +188,21 @@ footer {
         gap: 10px;
         flex-direction: column;
     }
-    article > img {
-        max-width: 80%;
-    }
-    
-    article > p {
-        max-width: 80%;
-    }
 }
 
 #logo { /* Used for styling logos */
     border-radius: 50%;
+}
+
+
+/* Posts content box */
+header ~ .common article { 
+    display: inline; /* for boxing content */
+    max-inline-size: 50%; /* uses 50% of the space */
+    border: 2px solid #000;   /* solid black border */
+    background-color: #ebebeb; /* subtle gray background */
+    padding: 20px; /* Add padding inside the box */
+    margin-bottom: 20px; /* Space between the articles */
+    margin-top: 20px; /* Space from top */
+    border-radius: 25px;  /*  rounded box corners */
 }
