@@ -165,10 +165,23 @@ article > p {
     font-family: Helvetica;
 }
 
+footer {
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+
 @media (max-width: 400px){ /* case when screen size changes to certain extent */
     nav{
         gap: 10px;
         flex-direction: column;
+    }
+    article > img {
+        max-width: 80%;
+    }
+    
+    article > p {
+        max-width: 80%;
     }
 }
 
