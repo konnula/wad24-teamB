@@ -3,8 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./res/css/style.css">
     <title>Add Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .common {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .post_form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .post_form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .post_form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+
+        .post_form input[type="file"] {
+            margin-bottom: 15px;
+        }
+
+        .post_form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .post_form button:hover {
+            background-color: #45a049;
+        }
+
+        #logo {
+            height: 24px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -12,18 +90,18 @@
             <a href="./index.html">Home</a>
         </div>
         <div>
-        <a href="./login.html" class="login_button">
-            <img id="logo" src="./res/images/login.png" alt="Login button">
-        </a>
+            <a href="./login.html" class="login_button">
+                <img id="logo" src="./res/images/login.png" alt="Login button">
+            </a>
         </div>
     </nav>
     <div class="common">
         <form class="post_form" action="./index.html" method="get">
             <label for="post_body">Post Body</label>
-            <textarea id="post_body" name="post_body" rows="5" cols="40"></textarea>
+            <textarea id="post_body" name="post_body" rows="5" cols="40" required></textarea>
 
             <label for="post_image">Select File</label>
-            <input type="file" id="post_image" name="post_image">
+            <input type="file" id="post_image" name="post_image" accept="image/*">
 
             <button type="submit">Create Post</button>
         </form>
