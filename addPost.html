@@ -11,11 +11,17 @@
         <div>
             <a href="./index.html">Home</a>
         </div>
-        <div>
-        <a href="./login.html" class="login_button">
-            <img id="logo" src="./res/images/login.png" alt="Login button">
-        </a>
-        </div>
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+            <a href="#" class="login_button" onclick="toggleDropdown()">
+                <img id="logo" src="./res/images/login.png" alt="Login button">
+            </a>
+            <div class="dropdown-content" id="dropdownMenu">
+                <p>John Doe</p>
+                <p>john.doe@gmail.com</p>
+                <a href="./login.html">Logout</a>
+            </div>
+        </div> 
     </nav>
     <div class="common">
         <form class="post_form" action="./index.html" method="get">
@@ -28,5 +34,6 @@
             <button type="submit">Create Post</button>
         </form>
     </div>
+    <script src="./src/js/script.js"></script>
 </body>
 </html>

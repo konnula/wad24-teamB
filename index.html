@@ -15,10 +15,18 @@
             <a href="./addPost.html">Add Post</a>
         </div>
         <div class="right-links">          
-        <a href="./login.html" class="login_button">
-            <img id="logo" src="./res/images/login.png" alt="Login button">
-        </a>
-        </div>        
+            <!-- Dropdown Menu -->
+            <div class="dropdown">
+                <a href="#" class="login_button" onclick="toggleDropdown()">
+                    <img id="logo" src="./res/images/login.png" alt="Login button">
+                </a>
+                <div class="dropdown-content" id="dropdownMenu">
+                    <p>John Doe</p>
+                    <p>john.doe@gmail.com</p>
+                    <a href="./login.html">Logout</a>
+                </div>
+            </div> 
+        </div>           
     </nav>
     <main>
         <div class="common">
@@ -51,5 +59,6 @@
     </main>
     <footer> Footer
     </footer>
+    <script src="./src/js/script.js"></script>
 </body>
 </html>

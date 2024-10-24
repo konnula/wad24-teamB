@@ -11,6 +11,43 @@ a:hover {
     width: 50px;
 }
 
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Directly below the parent */
+    right: 0;  /* Aligns to the right edge of the parent */
+    background-color: #f1f1f1;
+    min-width: 160px;
+    max-width: 200px; /* Adjust as needed */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Makes it so elements with lower z index are behind */
+}
+
+/* Show the dropdown */
+.dropdown-content.show {
+    display: block;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
 .common { /* common layout style container */
     display: flex;
     flex-direction: column;
