@@ -6,7 +6,7 @@
             "author": "User 1",
             "createTime": "Sept 25, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post1.png"
+            "imagePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tartu_%C3%9Clikooli_peahoone_2014-12.JPG/1200px-Tartu_%C3%9Clikooli_peahoone_2014-12.JPG"
         }, 
         {
             "id": 1,
@@ -22,7 +22,7 @@
             "author": "User 1",
             "createTime": "Oct 12, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post3.png"
+            "imagePath": "https://parmet.ee/wp-content/uploads/elementor/thumbs/Parmet-Tartu-Ulikooli-Delta-hoone-fassaad-arhitektuurifoto-24-qmia6xkgv6ws9rylv3f6qxvkzzixvho15cdi1d14tg.webp"
         },
         {
             "id": 3,
@@ -30,7 +30,7 @@
             "author": "User 1",
             "createTime": "Oct 20, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post4.png"
+            "imagePath": "https://fi.ut.ee/sites/default/files/styles/ut_content_teaser/public/2021-12/Physicum_0.jpg?h=3be7dba5&itok=1gZotaqd"
             },
         {
             "id": 4,
@@ -46,7 +46,7 @@
             "author": "User 4",
             "createTime": "Oct 23, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post6.png"
+            "imagePath": "https://cdn.britannica.com/36/234736-050-4AC5B6D5/Scottish-fold-cat.jpg"
         },
         {
             "id": 6,
@@ -70,7 +70,7 @@
             "author": "User 2",
             "createTime": "Oct 29, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post9.png"
+            "imagePath": "https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png"
         },
         {
             "id": 9,
@@ -78,7 +78,7 @@
             "author": "User 5",
             "createTime": "Nov 2, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post10.png"
+            "imagePath": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftas8db4xhg254qaztdz9.jpg"
         }
     ],
     "validated with": "https://jsonlint.com/",

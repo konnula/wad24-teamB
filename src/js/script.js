@@ -25,3 +25,17 @@ function toggleDropdown() {
 window.onclick = function(event) {
   
 }
+
+window.onload = function () {
+  fetch("https://api.jsonbin.io/v3/b/672689e8e41b4d34e44d3a06", {
+    method: 'GET',
+    mode: 'cors', 
+    headers: {
+      'X-Access-Key': '$2a$10$BR57v2oIWdihLGRPZpCFlOQ/bB/uvpWau7XlhtJEEzM3s/CwbzLDC'
+    }
+  })
+  .then((response) => response.json())
+  .then(json => {
+    console.log(json);
+  })
+}
