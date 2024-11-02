@@ -1,0 +1,84 @@
+{
+    "posts": [
+        {
+            "id": 0,
+            "title": "Post #1",
+            "author": "User 1",
+            "createTime": "Sept 25, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post1.png"
+        }, 
+        {
+            "id": 1,
+            "title": "Post #2",
+            "author": "User 2",
+            "createTime": "Oct 8, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post2.png"
+        },
+        {
+            "id": 2,
+            "title": "Post #3",
+            "author": "User 1",
+            "createTime": "Oct 12, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post3.png"
+        },
+        {
+            "id": 3,
+            "title": "Post #4",
+            "author": "User 1",
+            "createTime": "Oct 20, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post4.png"
+            },
+        {
+            "id": 4,
+            "title": "Post #5",
+            "author": "User 3",
+            "createTime": "Oct 22, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post5.png"
+        },
+        {
+            "id": 5,
+            "title": "Post #6",
+            "author": "User 4",
+            "createTime": "Oct 23, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post6.png"
+        },
+        {
+            "id": 6,
+            "title": "Post #7",
+            "author": "User 1",
+            "createTime": "Oct 24, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post7.png"
+        },
+        {
+            "id": 7,
+            "title": "Post #8",
+            "author": "User 3",
+            "createTime": "Oct 25, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post8.png"
+        },
+        {
+            "id": 8,
+            "title": "Post #9",
+            "author": "User 2",
+            "createTime": "Oct 29, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post9.png"
+        },
+        {
+            "id": 9,
+            "title": "Post #10",
+            "author": "User 5",
+            "createTime": "Nov 2, 2024",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
+            "imagePath": "../images/post10.png"
+        }
+    ]
+}
