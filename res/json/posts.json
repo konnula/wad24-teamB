@@ -80,5 +80,8 @@
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
             "imagePath": "../images/post10.png"
         }
-    ]
+    ],
+    "validated with": "https://jsonlint.com/",
+    "JSON file URI": "https://api.jsonbin.io/v3/b/672689e8e41b4d34e44d3a06",
+    "API key": "$2a$10$XwvWA32Xgb/HKbeeM7oPQuDGRqqxYzv2gqzkd9L1WnAZljoz8ksPm"
 }
