@@ -14,7 +14,7 @@
             "author": "User 2",
             "createTime": "Oct 8, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post2.png"
+            "imagePath": null
         },
         {
             "id": 2,
@@ -38,7 +38,7 @@
             "author": "User 3",
             "createTime": "Oct 22, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post5.png"
+            "imagePath": null
         },
         {
             "id": 5,
@@ -62,7 +62,7 @@
             "author": "User 3",
             "createTime": "Oct 25, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
-            "imagePath": "../images/post8.png"
+            "imagePath": null
         },
         {
             "id": 8,
