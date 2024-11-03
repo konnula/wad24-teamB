@@ -99,23 +99,13 @@ window.onload = function () {
 }
 
 
-var clicked = false; // checker if clicked
-
 // Function to toggle the dropdown menu visibility
-function toggleDropdown() {
+function toggleDropdown(event) {
+  event.preventDefault(); // Prevents the default anchor behavior
 
-  if (!clicked){
-    var dropdown = document.getElementById("dropdownMenu");
-    dropdown.classList.toggle("show");
-    clicked = true
-  }else{
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-      for (var i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-      clicked = false;
-    }
+  const dropdown = document.getElementById("dropdownMenu");
+  dropdown.classList.toggle("show"); // Toggles visibility
 }
+
+// Event listener for the login button
+document.querySelector('.login_button').addEventListener('click', toggleDropdown);
