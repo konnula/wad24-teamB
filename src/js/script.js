@@ -66,21 +66,34 @@ window.onload = function () {
       for (let i = 0; i < postArray.length; i++) {
         console.log(postArray[i]);
         let post = postArray[i];
-        let newArticle = document.createElement("article");
-        let newHeading = document.createElement("h2");
-        let newParagraph = document.createElement("p");
-        let newImage = document.createElement("img");
+      
+          let postWrapper = document.createElement("div");
+          postWrapper.className = "post-wrapper";
+      
+          let newArticle = document.createElement("article");
+      
+          let newHeading = document.createElement("h2");
+          newHeading.innerText = post.title;
+          newArticle.appendChild(newHeading);
+      
+          // author and createTime
+          let authorTimeDiv = document.createElement("div");
+          authorTimeDiv.className = "author-time";
+          authorTimeDiv.innerText = `By ${post.author} on ${post.createTime}`;
+          newArticle.appendChild(authorTimeDiv);
 
-        newHeading.innerText = post.title;
-        newParagraph.innerText = post.text;
-        
-        newArticle.appendChild(newHeading);
-        if (post.imagePath != null) {
-          newImage.src = post.imagePath;
-          newArticle.appendChild(newImage);
-        }
-        newArticle.appendChild(newParagraph);
-        main.appendChild(newArticle);
+          let newImage = document.createElement("img");
+          if (post.imagePath != null) {
+              newImage.src = post.imagePath;
+              newArticle.appendChild(newImage);
+          }
+      
+          let newParagraph = document.createElement("p");
+          newParagraph.innerText = post.text;
+          newArticle.appendChild(newParagraph);
+      
+          postWrapper.appendChild(newArticle);
+          main.appendChild(postWrapper);  
       }
     })
     .catch(err => {

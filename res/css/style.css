@@ -242,3 +242,26 @@ header ~ .common article {
     margin-top: 20px; /* Space from top */
     border-radius: 25px;  /*  rounded box corners */
 }
+
+/* Wrapper for posts */
+.post-wrapper {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  /* Author and time styling */
+  .author-time {
+    margin-bottom: 5px;
+  }
+  
+  /* Image spacing */
+  .post-image {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
