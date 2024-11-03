@@ -21,6 +21,7 @@ a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
+    padding: 10px;
     top: 100%; /* Directly below the parent */
     right: 0;  /* Aligns to the right edge of the parent */
     background-color: #f1f1f1;
@@ -43,7 +44,7 @@ a:hover {
 
 /* Hover effect for dropdown links */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(174, 240, 245);
 }
 
 .common { /* common layout style container */
