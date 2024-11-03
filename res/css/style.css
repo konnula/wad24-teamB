@@ -47,7 +47,8 @@ a:hover {
     background-color: rgb(174, 240, 245);
 }
 
-.common { /* common layout style container */
+/* Common layout style container */
+.common {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,8 +74,8 @@ article img + p {
     padding: 20px;
     background-color: lightgray;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 15px; /* rounded edges */
-    text-align: center; /* Center text inside the container */
+    border-radius: 15px;
+    text-align: center;
 }
 
 /* Navigation bar layout */
@@ -92,7 +93,18 @@ nav {
     /* animation: rainbowBorder 60s infinite; */ /* Rainbow style */
 }
 
-@keyframes rainbowBorder { /* Rainbow effect */
+.left-links {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.right-links {
+    margin-right: 20px;
+}
+
+/* Rainbow effect */
+@keyframes rainbowBorder {
     0% {
         border-color: red;
     }
@@ -128,24 +140,6 @@ nav a:hover {
     text-decoration: none;
     filter: drop-shadow(0px 0px 20px aqua);
 }
-
-/*
-nav .login_button {
-    left: 20px;
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-*/
-
-nav .left-links {
-    display: flex;
-    align-items: center;
-}
-
 
 /* Styling for the Add Post form to match the login box */
 .post_form {
@@ -219,14 +213,18 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 400px){ /* case when screen size changes to certain extent */
+/* case when screen size changes to certain extent */
+@media (max-width: 400px){
     nav{
         gap: 10px;
         flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
     }
 }
 
-#logo { /* Used for styling logos */
+/* Used for styling logos */
+#logo {
     border-radius: 50%;
 }
 
