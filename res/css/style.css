@@ -249,6 +249,7 @@ header ~ .common article {
     border-radius: 8px;
     background-color: #f9f9f9;
     margin-bottom: 20px;
+    max-width: 80%;
   }
   
   /* Author and time styling */
