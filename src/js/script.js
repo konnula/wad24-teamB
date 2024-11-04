@@ -56,8 +56,8 @@ window.onload = function () {
 
 // fetch data from /res/json/posts.json
 window.onload = function () {
-  if (fileName == "index.html") {
-    fetch("../res/json/posts.json")
+  if (fileName == "index.html" || fileName == "") {
+    fetch("./res/json/posts.json")
     .then((response) => response.json())
     .then(json => {
       let postArray = json['posts'];
