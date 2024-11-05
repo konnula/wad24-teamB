@@ -99,10 +99,6 @@ nav {
     margin-right: 35px;
 }
 
-.right-links {
-    margin-right: 20px;
-}
-
 /* Rainbow effect */
 @keyframes rainbowBorder {
     0% {
@@ -133,6 +129,7 @@ nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 nav a:hover {
