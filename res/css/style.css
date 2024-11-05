@@ -88,7 +88,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px;
+    padding: 5px 10px;
     height: 100%; 
     /* animation: rainbowBorder 60s infinite; */ /* Rainbow style */
 }
@@ -168,7 +168,7 @@ nav a:hover {
 }
 
 .post_form button {
-    background-color: aqua;
+    background-color: lightsteelblue;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
