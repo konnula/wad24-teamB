@@ -35,6 +35,7 @@ window.onload = function () {
         console.log(postArray[i]);
         let post = postArray[i];
       
+          // Main body
           let postWrapper = document.createElement("div");
           postWrapper.className = "post-wrapper";
       
@@ -44,7 +45,7 @@ window.onload = function () {
           newHeading.innerText = post.title;
           newArticle.appendChild(newHeading);
       
-          // author and createTime
+          // post author and createTime
           let authorTimeDiv = document.createElement("div");
           if (post.userLogo != null) {
             let userImage = document.createElement("img");
@@ -56,12 +57,14 @@ window.onload = function () {
           authorTimeDiv.innerText = `By ${post.author} on ${post.createTime}`;
           newArticle.appendChild(authorTimeDiv);
 
+          // add post image 
           let newImage = document.createElement("img");
           if (post.imagePath != null) {
               newImage.src = post.imagePath;
               newArticle.appendChild(newImage);
           }
       
+          // add post paragraph 
           let newParagraph = document.createElement("p");
           newParagraph.innerText = post.text;
           newArticle.appendChild(newParagraph);
@@ -69,10 +72,16 @@ window.onload = function () {
           postWrapper.appendChild(newArticle);
 
           // add like button
+          let likeButtonContainer = document.createElement("button") // make the image clickable
           let likeButton = document.createElement("img");
-          likeButton.className = "like_button";
+          likeButtonContainer.className = "like_button";
           likeButton.src = "./res/images/like_button.png"
-          postWrapper.appendChild(likeButton);
+          likeButtonContainer.appendChild(likeButton)
+          postWrapper.appendChild(likeButtonContainer);
+
+          likeButtonContainer.addEventListener("click", function() { // like button test function
+            console.log("Like button clicked!");
+          });
 
           main.appendChild(postWrapper);  
       }

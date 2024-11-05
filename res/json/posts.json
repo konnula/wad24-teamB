@@ -48,11 +48,11 @@
         {
             "id": 5,
             "title": "Post #6",
-            "author": "User 4",
-            "createTime": "Oct 23, 2024",
+            "author": "Chuck Norris",
+            "createTime": "Oct 23, 1985",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
             "imagePath": "https://cdn.britannica.com/36/234736-050-4AC5B6D5/Scottish-fold-cat.jpg",
-            "userLogo": "./res/images/login.png"
+            "userLogo": "./res/images/norris-chuck-image.jpg"
         },
         {
             "id": 6,
