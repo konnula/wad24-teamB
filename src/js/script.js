@@ -5,7 +5,7 @@ let fileName = windowURL[windowURL.length-1].substring(0, 10)
 // fetch data from online source
 /*
 window.onload = function () {
-  if (fileName == "index.html") {
+  if (fileName == "index.html" || fileName == "") {
     fetch("https://api.jsonbin.io/v3/b/672689e8e41b4d34e44d3a06", {
       method: 'GET',
       mode: 'cors', 
