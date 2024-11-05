@@ -78,6 +78,12 @@ window.onload = function () {
       
           // author and createTime
           let authorTimeDiv = document.createElement("div");
+          if (post.userLogo != null) {
+            let userImage = document.createElement("img");
+            userImage.className = "userIcon"
+            userImage.src = post.userLogo;
+            postWrapper.appendChild(userImage);
+          }
           authorTimeDiv.className = "author-time";
           authorTimeDiv.innerText = `By ${post.author} on ${post.createTime}`;
           newArticle.appendChild(authorTimeDiv);
@@ -93,6 +99,13 @@ window.onload = function () {
           newArticle.appendChild(newParagraph);
       
           postWrapper.appendChild(newArticle);
+
+          // add like button
+          let likeButton = document.createElement("img");
+          likeButton.className = "like_button";
+          likeButton.src = "./res/images/like_button.png"
+          postWrapper.appendChild(likeButton);
+
           main.appendChild(postWrapper);  
       }
     })

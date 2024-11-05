@@ -264,4 +264,13 @@ header ~ .common article {
     margin-top: 10px;
     border-radius: 5px;
   }
+
+  .userIcon {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .like_button {
+    max-width: 50px;
+    max-height: 50px;
+  }
   
