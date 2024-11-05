@@ -22,11 +22,13 @@ window.onload = function () {
     */
     
     // UNCOMMENT to fetch from local file
+
      fetch("./res/json/posts.json")
     .then((response) => response.json())
     .then(json => {
       let postArray = json['posts'];
       // END of local fetch part
+      
       let main = document.querySelector("main");
       main.className = "common";
       for (let i = 0; i < postArray.length; i++) {
