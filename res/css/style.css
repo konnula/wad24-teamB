@@ -266,9 +266,11 @@ header ~ .common article {
     max-width: 50px;
     max-height: 50px;
   }
+  
   .like_button {
     max-width: 50px;
     max-height: 50px;
+    margin-top: auto;
   }
   
-  
+
