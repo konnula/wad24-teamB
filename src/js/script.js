@@ -94,11 +94,29 @@ window.onload = function () {
     })
     .finally(() => {
         let footer = document.createElement("footer");
-        date = new Date().toLocaleString()
-        footer.innerText = date;
+        footer.id = "dateTimeFooter"; // Assign an ID for easy access
+
         document.body.appendChild(footer);
-        })
+
+        updateDateTime();
+        setInterval(updateDateTime, 1000); // Update every second
+      })
   }
+}
+
+function updateDateTime() {
+  const footer = document.getElementById("dateTimeFooter");
+
+  // Get the current date and time
+  const now = new Date();
+
+  // Format date and time as "Day, Month Date, Year HH:MM:SS"
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }; // 'long' for full month Jan -> January. Numeric - numbers
+  const formattedDate = now.toLocaleDateString("en-US", options);
+  const formattedTime = now.toLocaleTimeString();
+
+  // Set the footer text content to the formatted date and time
+  footer.textContent = `${formattedDate} ${formattedTime}`; // textContent tends to be faster than innerHTML. Since updates every second might be better choice 
 }
 
 
