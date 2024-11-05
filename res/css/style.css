@@ -88,7 +88,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px;
+    padding: 5px 10px;
     height: 100%; 
     /* animation: rainbowBorder 60s infinite; */ /* Rainbow style */
 }
@@ -97,10 +97,6 @@ nav {
     display: flex;
     align-items: center;
     margin-right: 35px;
-}
-
-.right-links {
-    margin-right: 20px;
 }
 
 /* Rainbow effect */
@@ -133,6 +129,7 @@ nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 nav a:hover {
@@ -168,7 +165,7 @@ nav a:hover {
 }
 
 .post_form button {
-    background-color: aqua;
+    background-color: lightsteelblue;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -273,4 +270,5 @@ header ~ .common article {
     max-width: 50px;
     max-height: 50px;
   }
+  
   
