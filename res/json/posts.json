@@ -61,7 +61,7 @@
             "createTime": "Oct 24, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
             "imagePath": null,
-            "userLogo": "./res/images/login.png"
+            "userLogo": "./res/images/like_button.png"
         },
         {
             "id": 7,
@@ -79,7 +79,7 @@
             "createTime": "Oct 29, 2024",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta porro quam est blanditiis tempore reiciendis ipsum ratione saepe. Quisquam deserunt ducimus qui minus voluptatem nisi. Suscipit vitae molestiae quidem dicta.",
             "imagePath": "https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png",
-            "userLogo": "./res/images/login.png"
+            "userLogo": "./res/images/ut_ringlogo_est_eng_sinine.png"
         },
         {
             "id": 9,
